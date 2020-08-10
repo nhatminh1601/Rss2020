@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity  implements OnItemClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         recyclerView=findViewById(R.id.recyclerView);
         layoutManager= new GridLayoutManager(this,2);
         recyclerView.setLayoutManager(layoutManager);

@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/liner"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center"
@@ -10,9 +9,8 @@
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
-        app:cardCornerRadius="5dp"
         android:layout_width="wrap_content"
-        app:cardBackgroundColor="@color/colorAccent"
+        app:cardBackgroundColor="#020202"
         android:layout_height="100dp">
         <RelativeLayout
             android:layout_width="match_parent"
@@ -29,17 +27,16 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
-                android:layout_marginBottom="0dp"
-                tools:src="@tools:sample/avatars" />
+                android:layout_marginBottom="0dp" />
 
             <TextView
                 android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:typeface="serif"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
